@@ -1,0 +1,75 @@
+/*--nav contents--*/
+.navContents{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 3; /*--definit le z-order d element positionne--*/
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s; /*--animate the boxshadow--*/
+ }
+.container{
+    max-width: 1015px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.container h1{
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 68px;
+    display: inline-block;
+    position: relative;
+}
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+}
+.main-contents{
+    position: relative;
+    float: right;
+}
+.nav-menu{
+    font-size: 15px;
+    padding-top: 1px;
+    padding-right: 0;
+    padding-bottom: 1px;
+    padding-left: 0;
+    font-family: sans-serif;
+}
+.nav-menu li{
+    padding-top: 20px;
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+.nav-menu .AboutUs{
+    color: #00b894; 
+      
+}
+.nav-menu .Career{
+    color: grey;
+} 
+.AboutUs:hover, .Career:hover{
+    color: #00b894; 
+}
+.nav-menu .Departments{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+

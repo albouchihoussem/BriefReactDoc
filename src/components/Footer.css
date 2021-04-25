@@ -1,0 +1,14 @@
+/*--footer--*/
+.main-footer{
+    border-top-color: rgb(238, 242, 242);
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    padding-top: 1em;
+    padding-right: 0px;
+    padding-bottom: 1em;
+    padding-left: 0px;
+}
+

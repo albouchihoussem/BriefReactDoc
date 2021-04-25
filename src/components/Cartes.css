@@ -1,0 +1,53 @@
+.verte{
+    background: #00ccb1;
+    margin-right: 20px;
+}
+.bleue{
+background: #3c83df;
+margin-right: 20px;
+}
+.black{
+    background: #1b2734;
+    margin-right: 20px;  
+}
+
+.box{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    
+}
+#monselect{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #ffffff;
+    padding-top: 5rem;
+}
+.ligne-1{
+    margin: 0px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+.white{
+    color: white;
+}
+.box h3{
+    padding-top: 1rem;
+}
+option {
+    color: black;
+}
